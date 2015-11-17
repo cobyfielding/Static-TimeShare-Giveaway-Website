@@ -1,3 +1,5 @@
+
+
 body {
 	background-color:#eaeaea;
 }
@@ -43,6 +45,7 @@ header nav ul li {
 	background-attachment:fixed;
 }
 
+
 .jumbotron {
 	text-align: center;
 	text-transform: uppercase;
@@ -65,14 +68,57 @@ header nav ul li {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size:2em;
+	margin:50px auto;
 
 }
-#wufoo-z11wwk2z1eos6gr{
+#wufoo-m6wnb9z0ro0cb9{
 	background-color:#fff;
 	width:80%;
 	border:3px dotted #fff;
 	margin:0px auto;
 }
 
-http://tinyurl.com/q3fn5op
+.info {
+	text-align: center;
+	font-size:2em;
+	line-height: 2;
+	padding:1em;
+}
+
+@media (min-width: 480px){
+	#banner {
+		height:400px;
+		background-size:cover;
+
+	}
+
+}
+
+footer {
+	margin-top:50px;
+	background-color:#000;
+	color:#fff;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+
+a.button {
+    background-color:#8dc63f;
+    color:#fff;
+    padding:10px 15px;
+    border-radius:20px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:500;
+	text-shadow:2px 2px 4px #000;
+	margin-top:15px;
+	margin-bottom:25px;
+}
+
+a.button:hover {
+    background-color:#3399FF;
+    color:#fff;
+    text-decoration:none;
+}
 
